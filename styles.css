@@ -48,8 +48,8 @@ section h2 {
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates three equal columns */
     gap: 2rem; /* Adjust the gap as needed */
 }
 
