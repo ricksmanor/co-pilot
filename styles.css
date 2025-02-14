@@ -12,6 +12,7 @@ header {
     position: fixed;
     width: 100%;
     text-align: center;
+    top: 0;
 }
 
 header h1 {
