@@ -47,9 +47,9 @@ section h2 {
     color: #333;
 }
 
-img{
-     width: 100%;
-      height: auto; /* Maintain aspect ratio */
+img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
 }
 
 button {
@@ -71,4 +71,27 @@ footer {
     padding: 10px 0;
     width: 100%;
     bottom: 0;
+}
+
+/* Accessibility */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        margin-top: 10rem;
+    }
+}
+
+/* Consistency */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Hover Effects */
+nav ul li a:hover {
+    color: #ddd;
 }
