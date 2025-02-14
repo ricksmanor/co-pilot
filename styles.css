@@ -48,8 +48,8 @@ section h2 {
 }
 
 img {
-    width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    height: 31.25rem; /* Maintain aspect ratio */
 }
 
 button {
